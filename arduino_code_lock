@@ -24,7 +24,12 @@
 #define PIN_LED_GUL     8   // Brandindikator
 
 #define PIN_RFID_RST    9
-#define PIN_RFID_SS     10
+#define PIN_RFID_SS     10 // SDA
+
+// RFID MOSI            11 - Kopplas ej om! Hårdkodat i SPI.h bibliotek.
+// RFID MISO            12 - Kopplas ej om! Hårdkodat i SPI.h bibliotek.
+// RFID SCK             13 - Kopplas ej om! Hårdkodat i SPI.h bibliotek.
+
 
 // Analoga pinnar används som digitala ingångar
 #define PIN_BTN_ABK_UTE A0
